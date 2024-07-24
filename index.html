@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="darkBg">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 py-5 sticky-top" id="navigation">
+        <div class="container-fluid ">
+          <a class="navbar-brand potta-one-regular fs-3 " href="index.html" id="logo">MRYRS</a>
+          <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars-staggered lightText"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="links">
+              <li class="nav-item">
+                <a class="nav-link active lightText" aria-current="page" href="#aboutme">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lightText" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lightText" href="#projects">Projects</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+                <button class="blueBg hire-me-btn poppins-bold px-5 py-2 rounded-5">Hire Me</button>
+            </div>
+            
+          </div>
+        </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="navigation" data-bs-smooth-scroll="true" class="scrollspy-example">
+      <div id="" class="d-flex flex-column justify-content-around align-items-center row-gap-4 mt-5">
+          <div class="">
+              <h1 class="blueText potta-one-regular">console.log("Welcome")</h1>
+          </div>
+          <div class="p-2">
+              <img src="./images/dev.png" class="img-fluid">
+          </div>
+          <div class="p-2">
+              <button class=" poppins-medium px-5 py-2 rounded-5" id="scroll-btn">Want to know me? Scroll down</button>
+          </div>
+      </div>
+
+      <div id="aboutme" class=" w-75 d-flex flex-column justify-content-around align-items-start row-gap-4 mt-5 lightText p-5 m-auto poppins-regular">
+        <h2 class="potta-one-regular blueText">about me</h2>
+        <p>
+          Hello! My name is Mary Rose but I prefer to be call Rosie
+        </p>
+        <p>
+          I’m an individual who is passionate about learning new technologies and exploring the IT field, particularly in UX/UI designing, graphics designing, web programming, and more. My interest in those topics started during our college days as it required my course BSIS. The supposed to be learned becomes something that I want to know. During my college days, we did different projects related to developing websites and systems which enhanced my skills and knowledge.
+        </p>
+        <a type="button"class="px-4 py-3 rounded-4 border-0 lightBg text-decoration-none darkText" href="https://drive.google.com/file/d/1a2Rgm1W-TVlnNT_UxP4s16IP2C0Puoxg/view?usp=sharing" target="_blank" id="download-btn">download resume/cv</a>
+      </div>
+
+      <div id="skills" class=" w-75 d-flex flex-column justify-content-around align-items-start row-gap-4 mt-5 lightText p-5 m-auto poppins-regular">
+        <h2 class="potta-one-regular blueText">skills</h2>
+        <div class="w-100">
+          <h6>Web development</h6>
+          <div class="skills-set-container" id="">
+            <div class="skill-item-box">
+              <img src="images/html.svg">
+              <h6>html</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/css.svg">
+              <h6>css</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/js.svg">
+              <h6>javascript</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/jquery.svg">
+              <h6>jquery</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/bootstrap.svg">
+              <h6>bootstrap</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/mysql.svg">
+              <h6>mysql</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/php.svg">
+              <h6>php</h6>
+            </div>
+            
+          </div>
+          <h6 class="mt-5">Graphic Designing</h6>
+          <div class="skills-set-container" id="">
+            <div class="skill-item-box">
+              <img src="images/figma.svg">
+              <h6>figma</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/ps.svg">
+              <h6>photoshop</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/ai.svg">
+              <h6>illustrator</h6>
+            </div>
+            <div class="skill-item-box justify-content-center">
+              <img src="images/canva.svg">
+              <h6>canva</h6>
+            </div>          
+          </div>
+        </div>
+
+      </div>
+
+      <div id="projects" class="w-75 d-flex flex-column justify-content-around align-items-start row-gap-4 mt-5 lightText p-5 m-auto poppins-regular ">
+        <h2 class="potta-one-regular blueText">projects</h2>
+        <div class="w-100">
+          <h6>Web development</h6>
+          <div class="skills-set-container" id="skills-set-container">
+
+            <div class="project-card">
+              <img src="images/edukateach.PNG" class="card-img-top project-card-img" alt="...">
+              <div class="project-card-body mx-4">
+                <h5 class="mt-4 potta-one-regular blueText">Edukateach</h5>
+                <p class="">A frontend side project created for our project management subjects. Creating this project helps me to understand how diffent 
+                  html and css works and manipulate them. It uses <span class="blueText"> html, css, and javascript </span></p>
+                <div class="card-links">
+                  <a href="https://edukateach.netlify.app/" target="_blank" class="text-decoration-none lightBg px-4 py-2 rounded-5 darkText poppins-bold">Live Demo</a>
+                  <a href="https://github.com/0mryrs0/Edukateach" target="_blank"  class="text-decoration-none darkBg px-4 py-2 rounded-5 lightText poppins-bold">Source Code</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="images/rps.PNG" class="card-img-top project-card-img" alt="...">
+              <div class="project-card-body mx-4">
+                <h5 class="mt-4 potta-one-regular blueText">RPS Game</h5>
+                <p class="">The classic rock, paper, scissors that allows user to play with computer. For this, I used html, css, and javascript</p>
+                <div class="card-links">
+                  <a href="https://0mryrs0.github.io/RPS-Game/" target="_blank" class="text-decoration-none lightBg px-4 py-2 rounded-5 darkText poppins-bold">Live Demo</a>
+                  <a href="https://github.com/0mryrs0/RPS-Game" target="_blank"  class="text-decoration-none darkBg px-4 py-2 rounded-5 lightText poppins-bold">Source Code</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="images/rct.PNG" class="card-img-top project-card-img" alt="...">
+              <div class="project-card-body mx-4">
+                <h5 class="mt-4 potta-one-regular blueText">Raydon Construction Inventory System</h5>
+                <p class="">This capstone project is designed to assist hardware stores in effectively managing their inventory. The system tracks and monitors the stock levels of every product, providing notifications to administrators when stocks reach critical levels.
+                  It uses <span class="blueText">HTML, CSS, PHP, JavaScript, AJAX, Jquery, and Bootstrap</span></p>
+                <div class="card-links">
+                  <a href="https://github.com/0mryrs0/Raydon-Inventory-Final--main" target="_blank"  class="text-decoration-none darkBg px-4 py-2 rounded-5 lightText poppins-bold">Source Code</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="images/ticketing.PNG" class="card-img-top project-card-img" alt="...">
+              <div class="project-card-body mx-4">
+                <h5 class="mt-4 potta-one-regular blueText">Ticketing System</h5>
+                <p class="">A project created during my internship which enables efficient communication among administrators, technical support, and clients.
+                It uses <span class="blueText">HTML, CSS, PHP, JavaScript, AJAX, Jquery, and Bootstrap</span></p>
+                <div class="card-links">
+                  <a href="" target="_blank"  class="text-decoration-none darkBg px-4 py-2 rounded-5 lightText poppins-bold">Source Code</a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div> 
+
+      <div id="contact" class=" w-75 d-flex flex-column justify-content-around align-items-start row-gap-4 mt-5 lightText p-5 m-auto poppins-regular">
+      </div>
+
+
+
+
+
+
+    </div>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
